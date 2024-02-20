@@ -1,5 +1,5 @@
 # GoIT: CSS+HTML 2.1 Course
-**Homework 4: Декоративні ефекти**
+**Homework 5: Елементи форм. Доступність**
 
 Used technologies:
 - HTML5
