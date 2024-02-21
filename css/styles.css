@@ -621,7 +621,7 @@ a {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
+  padding: 72px 24px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -662,7 +662,6 @@ a {
   line-height: 117%;
   letter-spacing: 0.04em;
   color: var(--light-slate);
-
   display: block;
   margin-bottom: 4px;
 }
@@ -698,10 +697,6 @@ a {
   margin-bottom: 16px;
 }
 
-.input-wrapper {
-  margin-bottom: 8px;
-}
-
 .input-icon {
   position: absolute;
   top: 50%;
@@ -734,10 +729,6 @@ a {
   outline: transparent;
 }
 
-.form-input-container {
-  margin-bottom: 24px;
-}
-
 .form-input:hover,
 .textarea-comment:hover,
 .form-input:active,
@@ -753,10 +744,6 @@ a {
 
 .form-input:focus+.input-icon {
   fill: var(--iris);
-}
-
-.comment-wrapper {
-  margin-bottom: 24px;
 }
 
 .checkbox-text {
@@ -799,10 +786,6 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input {
-  margin-right: 8px;
-}
-
 .checkbox-span {
   width: 16px;
   height: 16px;
@@ -817,6 +800,14 @@ a {
 
 .checkbox-input:checked {
   fill: #F4F4FD;
+}
+
+.input-wrapper {
+  margin-bottom: 8px;
+}
+
+.comment-wrapper {
+  margin-bottom: 24px;
 }
 
 /*#endregion modal*/
