@@ -640,6 +640,7 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
   color: #2E2F42;
+  padding: 0;
 }
 
 .close-button:hover,
@@ -698,7 +699,7 @@ a {
 }
 
 .input-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
 }
 
