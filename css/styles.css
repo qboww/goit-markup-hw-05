@@ -56,6 +56,25 @@ a {
   text-decoration: none;
 }
 
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+
 /*#endregion global-selectors */
 
 /*#region header*/
@@ -554,7 +573,6 @@ a {
   top: 24px;
   right: 24px;
   display: flex;
-  padding: 0px;
   cursor: pointer;
   justify-content: center;
   align-items: center;
@@ -585,17 +603,22 @@ a {
 
   display: flex;
   flex-direction: column;
+  margin-bottom: 4px;
 }
 
 .textarea-comment {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
-  border: 1px solid var(--navy-blue-modal);
+  color: var(--navy-blue-modal);
+
   border-radius: 4px;
-  padding: 16px 8px;
+  padding: 8px 16px;
   resize: none;
+  width: 100%;
+  outline: none;
 }
 
 .modal-paragraph {
@@ -617,20 +640,45 @@ a {
   position: absolute;
   top: 50%;
   left: 16px;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
+  fill: currentColor;
 }
 
 .form-input-container {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .form-input {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+
   width: 100%;
   height: 40px;
-  border: 1px solid var(--iris);
+  border: 1px solid var(--navy-blue-modal);
   border-radius: 4px;
   padding-left: 38px;
+  outline: none;
+}
+
+.form-input:hover,
+.textarea-comment:hover,
+.form-input:active,
+.textarea-comment:active,
+.form-input:focus,
+.textarea-comment:focus {
+  border-color: var(--iris);
+}
+
+.form-input-container:hover .input-icon {
+  fill: var(--iris);
+}
+
+.form-input:focus+.input-icon {
+  fill: var(--iris);
 }
 
 .end-wrapper {
@@ -656,9 +704,19 @@ a {
 }
 
 .form-button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--white);
+
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
+
   border-radius: 4px;
+  border: none;
   padding: 16px 32px;
   width: 169px;
   margin: 24px 95px;
