@@ -722,6 +722,11 @@ a {
   margin: 24px 95px;
 }
 
+.form-button:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
 .checkbox-input {
   margin-right: 8px;
 }
