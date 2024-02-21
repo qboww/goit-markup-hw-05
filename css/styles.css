@@ -574,7 +574,7 @@ a {
 }
 
 .sub-button {
-
+  display: flex;
   min-width: 165px;
   height: 40px;
   justify-content: center;
