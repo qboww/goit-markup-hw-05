@@ -756,7 +756,7 @@ a {
 }
 
 .comment-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .checkbox-text {
@@ -773,6 +773,7 @@ a {
 
 .policy-link {
   text-decoration: underline;
+  color: #4d5ae5;
 }
 
 .form-button {
@@ -814,9 +815,8 @@ a {
   fill: transparent;
 }
 
-.checkbox-span .checkbox-input:checked {
+.checkbox-input:checked {
   fill: #F4F4FD;
-  ;
 }
 
 /*#endregion modal*/
