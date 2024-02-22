@@ -764,10 +764,8 @@ a {
 .form-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
+  margin: 0 auto;
   width: 169px;
-  margin: 24px 95px;
-  padding: 16px 32px;
   display: block;
   min-width: 169px;
   height: 56px;
