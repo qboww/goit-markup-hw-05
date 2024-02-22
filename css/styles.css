@@ -590,11 +590,17 @@ a {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sub-icon {
   margin-left: 16px;
   fill: #FFF;
+}
+
+.sub-button:hover,
+.sub-button:focus {
+  background-color: #404bbf;
 }
 
 /*#endregion footer */
@@ -780,6 +786,11 @@ a {
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: #404bbf;
 }
 
 .checkbox-span {
